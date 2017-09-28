@@ -34,6 +34,17 @@ navigator.mediaDevices.getUserMedia({audio: true})
         });
 
 var shakitta_hz_array = [
+164,
+150,
+326,
+327,
+326,
+313,
+169,
+169,
+224,
+224,
+/*
 	154,
 	153,
 	319, 
@@ -54,6 +65,7 @@ var shakitta_hz_array = [
 	224,
 	224,
 	224
+*/
 ];
 //誤差は 5hz
 var t_hz = 5
@@ -70,6 +82,9 @@ function is_shakitta(f_array){
 			match_count++;
 		}
 	}
+	if(f_array[0] > 50) {
+		console.log(f_array[0]);
+	}
 	if(match_count >= t_match){
 		return true;
 	} else {
@@ -79,6 +94,7 @@ function is_shakitta(f_array){
 
 elVolume = document.getElementById('volume');
 var buffer_hz =[
+/*
 	0,
 	0,
 	0,
@@ -89,6 +105,7 @@ var buffer_hz =[
 	0,
 	0,
 	0,
+*/
 	0,
 	0,
 	0,
