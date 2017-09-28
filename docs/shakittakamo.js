@@ -94,6 +94,7 @@ function is_shakitta(f_array){
 			match_count++;
 		}
 	}
+	console.log(f_array[0]);
 	if(match_count >= t_match){
 		return true;
 	} else {
