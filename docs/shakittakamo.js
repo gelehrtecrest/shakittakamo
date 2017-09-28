@@ -54,40 +54,6 @@ var shakitta_hz_array = [
 	250,
 	250,
 	250,
-/*
-164,
-150,
-326,
-327,
-326,
-313,
-169,
-169,
-224,
-224,
-*/
-/*
-	154,
-	153,
-	319, 
-	319,
-	257,
-	258,
-	258,
-	150,
-	150,
-	150,
-	151,
-	150,
-	326,
-	327,
-	326,
-	326,
-	326,
-	224,
-	224,
-	224
-*/
 ];
 //誤差は 5hz
 var t_hz = 50
@@ -104,7 +70,7 @@ function is_shakitta(f_array){
 			match_count++;
 		}
 	}
-	console.log(f_array[0]);
+	//console.log(f_array[0]);
 	if(match_count >= t_match){
 		return true;
 	} else {
