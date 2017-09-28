@@ -44,6 +44,16 @@ var shakitta_hz_array = [
 	250,
 	250,
 	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
 /*
 164,
 150,
@@ -104,7 +114,6 @@ function is_shakitta(f_array){
 
 elVolume = document.getElementById('volume');
 var buffer_hz =[
-/*
 	0,
 	0,
 	0,
@@ -115,7 +124,6 @@ var buffer_hz =[
 	0,
 	0,
 	0,
-*/
 	0,
 	0,
 	0,
