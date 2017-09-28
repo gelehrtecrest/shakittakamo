@@ -34,6 +34,17 @@ navigator.mediaDevices.getUserMedia({audio: true})
         });
 
 var shakitta_hz_array = [
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+	250,
+/*
 164,
 150,
 326,
@@ -44,6 +55,7 @@ var shakitta_hz_array = [
 169,
 224,
 224,
+*/
 /*
 	154,
 	153,
@@ -68,7 +80,7 @@ var shakitta_hz_array = [
 */
 ];
 //誤差は 5hz
-var t_hz = 5
+var t_hz = 50
 //合格率は 8割
 var t_match = shakitta_hz_array.length * 0.8;
 
